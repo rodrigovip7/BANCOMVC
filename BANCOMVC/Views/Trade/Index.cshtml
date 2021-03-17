@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Trade Categories</h1>
+<div>
+    @foreach (var item in ViewBag.tradeCategories)
+    {
+        <h5>@item</h5>
+    }
+</div>
